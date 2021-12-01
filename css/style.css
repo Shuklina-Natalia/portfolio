@@ -128,7 +128,6 @@
     color: white;
 }
 
-
 .card__discription {
     margin: 10px 0px;
     text-align: center;
@@ -216,6 +215,7 @@
 .section-three h3{
     color: black;
 }
+
 .card {
     display: flex;
     flex-direction: column;
@@ -325,9 +325,6 @@
 
 
 
-
-
-
 /* ==== section five ==== */
 
 
@@ -347,7 +344,6 @@
 .section-five p{
     text-align: center;
 }
-
 
 .section-five__title {
     text-transform: uppercase;
@@ -405,6 +401,7 @@
     flex-direction: column;
     align-items: center;
 }
+
 .card__discription {
     margin: 10px 0px;
     text-align: center;
@@ -421,4 +418,90 @@
     background-color: rgb(88, 236, 199);
     color: #fff;
     border: none;
+}
+
+
+
+/* ==== section six ==== */
+
+
+
+.section-six{
+    min-height: 100vh;
+    background-color: #d74681;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+ }
+
+ .section-six__title{
+    text-transform: uppercase;
+    margin-top: 50px;
+    margin-bottom: 20px;
+    position: relative;
+    color: white;
+}
+
+.section-six__title:after{
+    content: '';
+    position: absolute;
+    border-bottom: 2px solid rgba(128, 128, 128, 0.363);
+    width: 70px;
+    bottom: -10px;
+    left: calc(50% - 35px);
+}
+
+.section-six__discription{
+    max-width: 400px;
+    font-size: 1.2rem;
+    text-align: center;
+    color: white;
+}
+
+.section-six__list{
+    display: grid;
+    grid-template-columns: 0.5fr 0.5fr ;
+}
+
+.section-six article div {
+    margin: 10px;
+    margin-bottom: 35px;
+    display: grid;
+    grid-template-columns: 0.45fr 0.45fr;
+    }
+
+.section-six i{
+    color:#787878;
+    font-size: 100px;
+    margin-left: 50px;
+}
+
+.section-six .card__name{
+    width: 400px;
+    font-size: 17px;
+}
+
+.section-six h3{
+    color: rgb(223, 223, 126);
+    font-size: 15px;
+}
+        
+.section-six article p{
+    color: white;
+    font-size: 17px;
+    width:160px;
+}
+        
+.section-six h4{
+    color: white;
+    font-size: 17px;
+    padding-top: 15px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.section-six article em{
+    color: white;
+    font-size: 17px;
+    width:320px;
 }
